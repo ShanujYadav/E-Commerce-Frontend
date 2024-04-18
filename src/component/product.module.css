@@ -1,0 +1,49 @@
+.abc {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+
+  margin-left: 50px;  
+  
+  }
+  .cards{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(97, 171, 237);
+  width: 300px;
+}
+
+.verticalLine {
+  height: 100000px;
+  border-left: 10px solid brown;
+  position: absolute;
+  
+  
+
+}
+.img{
+  position:fixed;
+}
+
+.cartCard{
+  margin-left:50px;
+  margin-right:50px;
+  border:'2px solid olive';
+  border-radius:'50px 20px';
+  box-shadow: 5px 10px olive;
+}
+.productmodal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 80%;
+  background-color:gray;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
